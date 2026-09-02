@@ -47,6 +47,7 @@ pnpm build
 
 ---
 
-## 📜 Licencia
+## 🔗 Enlaces
 
-MIT
+- **Web en Producción:** [https://hilos-ai.vercel.app](https://hilos-ai.vercel.app)
+- **Repositorio GitHub:** [https://github.com/ramiroAlvarez9/hilos](https://github.com/ramiroAlvarez9/hilos)
