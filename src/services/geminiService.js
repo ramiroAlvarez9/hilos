@@ -7,7 +7,11 @@
 const STORAGE_KEY = "RED_STRING_GEMINI_KEY";
 
 export const getStoredApiKey = () => {
-  return localStorage.getItem(STORAGE_KEY) || "";
+  return (
+    (typeof import.meta !== 'undefined' && import.meta.env?.VITE_GEMINI_API_KEY) ||
+    localStorage.getItem(STORAGE_KEY) ||
+    ""
+  );
 };
 
 export const setStoredApiKey = (key) => {
